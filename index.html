@@ -12,9 +12,10 @@
   <main>
     <h1 class="visually-hidden">Проект «Пантеон» - полёты на Марс</h1>
     <section class="promo">
-      <h2 class="promo__title">Пункт назначения: Пантеон, Марс</h2>
-      <p class="promo__place">Пантеон Олимп</p>
-      <video class="promo__video" width="584" height="293" poster="img/preview-1.jpg">
+      <h2 class="promo__title">Пункт назначения: <span>Пантеон,</span> <span>Марс</span></h2>
+      <p class="promo__place">Пантеон</p>
+      <p class="promo__place">Олимп</p>
+      <video class="promo__video" width="2000" height="1000" poster="img/preview-1.jpg">
         <source src="video.mp4" type="video/mp4">
       </video>
       <button class="promo__video-btn" type="button">Смотреть видео</button>
@@ -39,30 +40,39 @@
     </section>
     <section class="info">
       <h2 class="info__title">Марс. Вспомнить всё</h2>
-      <h3 class="info__subtitle">Что такое Марс?</h3>
-      <p class="info__text">Планета Солнечной системы, названа в честь Марса — древнеримского бога войны. Иногда Марс называют «красной планетой» из-за красного оттенка поверхности, придаваемого ей оксидом железа.</p>
-      <p class="info__text">Особенности планеты — наличие слабой атмосферы, состоящей в основном из углекислого газа, времена года, пылевые бури, сильная эрозия почв.</p>
-      <h3 class="info__subtitle">Где это? Как туда доехать?</h3>
-      <p class="info__text">Расстояние до Марса — почти 56 миллионов километров. Чтобы преодолеть такое расстояние, нужно лететь на межпланетном корабле 7-8 месяцев.</p>
+      <ul class="info__list">
+        <li class="info__item">
+          <h3 class="info__subtitle">Что такое Марс?</h3>
+          <p class="info__text">Планета Солнечной системы, названа в честь Марса — древнеримского бога войны. Иногда Марс называют «красной планетой» из-за красного оттенка поверхности, придаваемого ей оксидом железа.</p>
+          <p class="info__text">Особенности планеты — наличие слабой атмосферы, состоящей в основном из углекислого газа, времена года, пылевые бури, сильная эрозия почв.</p>
+        </li>
+        <li class="info__item">
+          <h3 class="info__subtitle">Где это? Как туда доехать?</h3>
+          <p class="info__text">Расстояние до Марса — почти 56 миллионов километров. Чтобы преодолеть такое расстояние, нужно лететь на межпланетном корабле 7-8 месяцев.</p>
+        </li>
+      </ul>
       <img class="info__image" src="img/path.png" width="469" height="286" alt="Путешествие от Земли до Марса">
     </section>
     <section class="implementation">
       <h2 class="implementation__title">От идеи до реализации</h2>
-      <h3 class="implementation__subtitle">Илон Маск. Гений или безумец?</h3>
-      <p class="implementation__text">Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и X.com, позже переименованной в PayPal. Планирует потратить большую часть накоплений на реализацию своей мечты, а также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.</p>
-      <p class="implementation__text"><q>Мы должны сделать эту мечту реальностью за наше время жизни. Любой человек, который пожелает отправиться на Марс, должен иметь такую возможность</q> — заявил Маск на Международной астронавтической конференции в Гвадалахаре (Мексика). Он обосновал необходимость своего проекта вопросом выживания человечества, которое для своего сохранения должно стать «космическим видом».</p>
-      <p class="implementation__text">Илон поставил перед собой цель: сократить стоимость вывода кораблей в космос в 10 раз, что станет первым шагом для человечества в освоении Марса.</p>
-      <img class="implementation__photo" src="img/photo-1.jpg" width="325" height="373" alt="Илон Маск">
-    </section>
-    <section class="cost">
-      <h2 class="cost__title">Стоимость перелёта</h2>
-      <p class="cost__description">Высадка двоих астронавтов на Луну обошлась США в 20 млрд. долларов. Маск стремится сократить эту цифру в 20 000 раз, что составит <b>500 000 долларов</b> на человека.</p>
-      <img class="cost__image" src="img/rocket.jpg" width="310" height="310" alt="Старт ракеты">
-      <form class="cost__form" action="#" method="get">
-        <label for="name-field">$500 k</label>
-        <input type="text" name="user-name" id="name-field" placeholder="и ты на Марсе!" required>
-        <button type="submit">Я готов лететь</button>
-      </form>
+      <section class="implementation__elon elon">
+        <h3 class="elon__subtitle">Илон Маск. Гений или безумец?</h3>
+        <p class="elon__text">Канадско-американский инженер, предприниматель, изобретатель и инвестор; миллиардер. Основатель компаний SpaceX и X.com, позже переименованной в PayPal. Планирует потратить большую часть накоплений на реализацию своей мечты, а также мечты многих тысяч романтиков, писателей, учёных: создать внеземную цивилизацию.</p>
+        <p class="elon__text"><q>Мы должны сделать эту мечту реальностью за наше время жизни. Любой человек, который пожелает отправиться на Марс, должен иметь такую возможность</q> — заявил Маск на Международной астронавтической конференции в Гвадалахаре (Мексика). Он обосновал необходимость своего проекта вопросом выживания человечества, которое для своего сохранения должно стать «космическим видом».</p>
+        <p class="elon__text">Илон поставил перед собой цель: сократить стоимость вывода кораблей в космос в 10 раз, что станет первым шагом для человечества в освоении Марса.</p>
+        <img class="elon__photo" src="img/photo-1.jpg" width="325" height="373" alt="Илон Маск">
+      </section>
+      <section class="implementation__cost cost">
+        <h3 class="cost__title">Стоимость перелёта</h3>
+        <img class="cost__image" src="img/rocket.jpg" width="310" height="310" alt="Старт ракеты">
+        <p class="cost__description">Высадка двоих астронавтов на Луну обошлась США в 20 млрд. долларов. Маск стремится сократить эту цифру в 20 000 раз, что составит <span>500 000 долларов</span> на человека.</p>
+        <form class="cost__form" action="#" method="get">
+          <span>$500 k</span>
+          <label for="cost-name">Имя</label>
+          <input type="text" name="user-name" id="cost-name" placeholder="и ты на Марсе!" required>
+          <button type="submit">Я готов лететь</button>
+        </form>
+      </section>
     </section>
     <section class="pitfalls">
       <h2 class="pitfalls__title">Подводные камни в масштабах космоса</h2>
@@ -78,17 +88,17 @@
     <section class="colony">
       <h2 class="colony__title">Организация жизни в колонии</h2>
       <img class="colony__image" src="img/onboarding.jpg" width="1140" height="529" alt="Жизнь в колонии">
-      <p class="colony__description">В основе жилых помещений лежат надувные компоненты — спальня, рабочая зона, гостиная, парник для выращивания зелени — 50 м2 на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
+      <p class="colony__description">В основе жилых помещений лежат надувные компоненты — спальня, рабочая зона, гостиная, парник для выращивания зелени — 50 м<sup>2</sup> на человека. Благодаря этим компонентам, колонисты смогут принять душ, приготовить свежую пищу, носить обычную одежду. Весь комплекс соединен сетью ходов.</p>
       <a class="colony__link" href="#">Подробнее</a>
     </section>
     <section class="news">
       <h2 class="news__title">Деньги приготовил. Когда вылетаем?</h2>
       <p class="news__form-title">Будь в курсе новостей</p>
       <form class="news__form" action="#" method="post">
-        <label class="visually-hidden" for="name-field">Имя</label>
-        <input type="text" name="user-name" id="name-field" placeholder="Имя" required>
-        <label class="visually-hidden" for="email-field">E-mail</label>
-        <input type="email" name="user-email" id="email-field" placeholder="E-mail" required>
+        <label class="visually-hidden" for="news-name">Имя</label>
+        <input type="text" name="user-name" id="news-name" placeholder="Имя" required>
+        <label class="visually-hidden" for="news-email">E-mail</label>
+        <input type="email" name="user-email" id="news-email" placeholder="E-mail" required>
         <button type="submit">Подписаться</button>
       </form>
       <p class="news__text">Первый «частный» полёт на Марс осуществит в 2018 году в беспилотном варианте корабль Dragon V2 с помощью тяжёлой ракеты Falcon Heavy. После этого запланированы две миссии в 2020 году, как минимум одна в 2022-м и, вероятно, пилотируемая миссия через два года с достижением Марса в 2025 году.</p>
